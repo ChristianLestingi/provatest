@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.container {
+    width: auto;
+    height: 1000px;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.card-1{
+    background-color: orange;
+    color: white;
+    max-width: 200px;
+    max-height: auto;
+    
+    border-radius: 10px 0 0 10px
+
+    ;
+}
+header{
+    margin: 1em;
+}
+header img{
+    width: 30px;
+    height: auto;
+    margin-left:2em
+}
+main {
+    margin: 1em;
+}
+
+main h2{
+    margin-bottom: 1em;
+}
+
+button {
+    width: 7em;
+    height: 2em;
+    margin: 2em;
+    border-radius: 30px;
+    border: none;
+    
+}
+span{
+    color: orange;
+    font-size: 10px;
+   
+}
+.card-2{
+    background-color: rgba(5, 53, 66, 0.726);
+    color: white;
+    max-width: 200px;
+    max-height: auto;
+}
+.card-2 span{ color :rgba(5, 53, 66, 0.726);
+}
+.card-3{
+    background-color: rgb(26, 117, 90);
+    max-width: 200px;
+    max-height: auto;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+}
+.card-3 span{
+    color:  rgb(26, 117, 90);
+    
+}
